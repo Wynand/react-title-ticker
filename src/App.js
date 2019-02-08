@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TitleTicker from './title-ticker';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <TitleTicker title = "Mary had a little lamb - " step = {1000}/>
         </header>
       </div>
     );
