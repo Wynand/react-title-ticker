@@ -20,7 +20,7 @@ class App extends Component {
           >
             Learn React
           </a>
-          <TitleTicker title = "👩‍ Mary had a little lamb 🐑" step = {1000}/>
+          <TitleTicker title = "👩‍ Mary had a little lamb 🐑" step = {100}/>
         </header>
       </div>
     );
