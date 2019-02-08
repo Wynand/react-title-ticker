@@ -10,7 +10,7 @@ function rotateArr(Arr,rot){
 class TitleTicker extends React.Component{
     constructor(props){
         super(props);
-        this.state = {title: props.title, offset: 0, step: props.step}
+        this.state = {title: props.title, time: Date.now(), step: props.step}
     }
 
     componentDidMount(){
@@ -24,7 +24,9 @@ class TitleTicker extends React.Component{
     render(){
         return ReactDOM.createPortal(
             <React.Fragment>
-                {rotateArr(this.state.title,this.state.offset)}
+                {rotateArr(
+                    this.state.title,
+                    Math.floor((Date.now()-this.state.time)/this.state.step))}
             </React.Fragment>
         ,document.getElementsByTagName("title")[0]);
     }
