@@ -21,6 +21,13 @@ class TitleTicker extends React.Component{
         window.clearInterval(this.state.timer);
     }
 
+    static getDerivedStateFromProps(props,state){
+        return {
+            ...state,
+            title: props.title
+        }
+    }
+
     render(){
         return ReactDOM.createPortal(
             <React.Fragment>

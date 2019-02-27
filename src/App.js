@@ -4,6 +4,13 @@ import './App.css';
 import TitleTicker from './title-ticker';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      title: "👩‍ Mary had a little lamb 🐑"
+    }
+  }
+
   render() {
     return (
       <div className="App">
@@ -12,15 +19,11 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <TitleTicker title = "👩‍ Mary had a little lamb 🐑" step = {100}/>
+            <input type = "text" value = {this.state.title} onChange = {(e)=>{
+              console.log(this.state.title)
+              this.setState({title:e.target.value})
+            }} />
+          <TitleTicker title = {this.state.title} step = {100}/>
         </header>
       </div>
     );
