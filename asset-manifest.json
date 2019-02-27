@@ -1,14 +1,14 @@
 {
-  "main.css": "/react-title-ticker/static/css/main.9ecbd232.chunk.css",
-  "main.js": "/react-title-ticker/static/js/main.3f293cd9.chunk.js",
-  "main.js.map": "/react-title-ticker/static/js/main.3f293cd9.chunk.js.map",
-  "static/js/1.a40ee5cb.chunk.js": "/react-title-ticker/static/js/1.a40ee5cb.chunk.js",
-  "static/js/1.a40ee5cb.chunk.js.map": "/react-title-ticker/static/js/1.a40ee5cb.chunk.js.map",
+  "main.css": "/react-title-ticker/static/css/main.d33da45f.chunk.css",
+  "main.js": "/react-title-ticker/static/js/main.feb9eb18.chunk.js",
+  "main.js.map": "/react-title-ticker/static/js/main.feb9eb18.chunk.js.map",
+  "static/js/1.f50768bd.chunk.js": "/react-title-ticker/static/js/1.f50768bd.chunk.js",
+  "static/js/1.f50768bd.chunk.js.map": "/react-title-ticker/static/js/1.f50768bd.chunk.js.map",
   "runtime~main.js": "/react-title-ticker/static/js/runtime~main.09e6e54f.js",
   "runtime~main.js.map": "/react-title-ticker/static/js/runtime~main.09e6e54f.js.map",
   "static/media/logo.svg": "/react-title-ticker/static/media/logo.5d5d9eef.svg",
-  "static/css/main.9ecbd232.chunk.css.map": "/react-title-ticker/static/css/main.9ecbd232.chunk.css.map",
+  "static/css/main.d33da45f.chunk.css.map": "/react-title-ticker/static/css/main.d33da45f.chunk.css.map",
   "index.html": "/react-title-ticker/index.html",
-  "precache-manifest.1a061f93568d2757cd51485cc67f2652.js": "/react-title-ticker/precache-manifest.1a061f93568d2757cd51485cc67f2652.js",
+  "precache-manifest.6756f7521da11d21f0075408797af66b.js": "/react-title-ticker/precache-manifest.6756f7521da11d21f0075408797af66b.js",
   "service-worker.js": "/react-title-ticker/service-worker.js"
 }
